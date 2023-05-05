@@ -4,6 +4,9 @@ import warnings
 warnings.filterwarnings("ignore")
 app = Flask(__name__)
 
+@app.route('/about')
+def about():
+    return  render_template("About.html")
 @app.route('/')
 def hello():
     return  render_template("index.html")
