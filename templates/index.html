@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Image Captioning</title>
+        <link rel="stylesheet" href="../static/style.css">
     </head>
     <body>
         <h1> Image Captioning</h1>
@@ -12,7 +13,7 @@
         </form>
         {% if your_caption %}
             <img src="{{your_caption['image']}}">
-            <h1>Generate Caption: <i> {{your_caption["caption"]}} </i> </h1>
+            <h1>Generated Caption: <i> {{your_caption["caption"]}} </i> </h1>
         {% endif %}
     </body>
 </html>
