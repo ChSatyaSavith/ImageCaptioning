@@ -19,7 +19,13 @@ body {
     padding: 100px;
 }
 
-.image img {
+.caption{
+    font-family: 'League Spartan';
+    padding: 10px;
+}
+
+.image {
+    padding: 20px;
     max-width: 100%;
     max-height: 100%;
 }
