@@ -1,0 +1,25 @@
+body {
+    background-image: url("../static/back.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 1200px;
+    background-size: cover;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    font-size: 30px;
+    color: white;
+    padding: 100px;
+}
+
+.image img {
+    max-width: 100%;
+    max-height: 100%;
+}

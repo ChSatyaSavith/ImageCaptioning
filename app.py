@@ -1,5 +1,7 @@
 from flask import Flask, render_template, redirect, request
 import ImageCaption
+import warnings
+warnings.filterwarnings("ignore")
 app = Flask(__name__)
 
 @app.route('/')
@@ -20,7 +22,7 @@ def image():
             'caption' : caption
         }
 
-    return render_template("index.html",your_caption = result_dic)
+    return render_template("generated.html",your_caption = result_dic)
 
 if __name__ == '__main__':
     app.run(debug=True)

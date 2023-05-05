@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Image Captioning</title>
+        <link rel="stylesheet" href="../static/predicted.css">
+    </head>
+    <body>
+        {% if your_caption %}
+        <div class="main">
+            <div class="image">
+                <img src="{{your_caption['image']}}">
+            </div>
+            <div class="caption">
+                <h1>Generated Caption: <i> {{your_caption["caption"]}} </i> </h1>
+            </div>
+        </div>
+        {% endif %}
+    </body>
+</html>

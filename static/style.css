@@ -1,8 +1,49 @@
 body {
-    background-image:url("../static/background.png");
+    background-image: url("../static/back.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width:1200px;
+    width: 1200px;
     background-size: cover;
-    margin:0 auto;
-}
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    font-size: 30px;
+    color: white;
+    padding: 100px;
+  }
+  
+  .upload {
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .upload input[type="file"] {
+    display: block;
+    margin: 0 auto 20px;
+    font-size: 18px;
+  }
+  
+  .upload input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+ 

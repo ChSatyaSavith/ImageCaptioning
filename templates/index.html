@@ -6,14 +6,20 @@
         <link rel="stylesheet" href="../static/style.css">
     </head>
     <body>
-        <h1> Image Captioning</h1>
-        <form method="POST" action="/" enctype="multipart/form-data">
-            <input type="file" name="userfile" placeholder="Your Image">
-            <input type="submit">
-        </form>
-        {% if your_caption %}
-            <img src="{{your_caption['image']}}">
-            <h1>Generated Caption: <i> {{your_caption["caption"]}} </i> </h1>
-        {% endif %}
+        <div class = "main">
+            <div class = "upload">
+                <form method="POST" action="/" enctype="multipart/form-data">
+                    <input type="file" name="userfile" placeholder="Your Image">
+                    <input type="submit">
+                </form>
+                <!-- {% if your_caption %}
+                    <img src="{{your_caption['image']}}">
+                    <h1>Generated Caption: <i> {{your_caption["caption"]}} </i> </h1>
+                {% endif %} -->
+            </div>
+            <div class = "quote">
+                <!-- <h1>Bruh</h1> -->
+            </div>
+        </div>
     </body>
 </html>
