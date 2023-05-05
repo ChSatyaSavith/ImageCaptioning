@@ -1,9 +1,9 @@
 body {
-    background-image: url("../static/back.png");
-    background-repeat: repeat-y;
-    background-size: 100%;
-    margin: 0;
-    height: 95vh;
+  background-image: url("../static/back.png");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  margin: 0;
+  height: 95vh;
 }
 
 #impimp{
@@ -16,6 +16,7 @@ body {
   color: #000000;
   transition: 150ms ease-in-out;
 }
+
 
 nav {
   font-family: 'League Spartan';
@@ -44,28 +45,6 @@ nav {
   margin-right: 20px;
 }
 
-#toptag{
-  color: #fff;
-  font-family: 'League Spartan';
-  font-size: 4vb;
-  text-align: center;
-  margin-top: 15%;
-}
-
-#toptag p{
-  font-size: 5vb;
-  color: #ff6881;
-  display: inline;
-  text-transform: uppercase;
-}
-
-#toptag p:hover{
-  color: #e84abe;
-  transition: 150ms ease-in-out 0ms;
-  display: inline;
-  text-transform: uppercase;
-}
-
 .nav-links a {
   padding: 8px;
   color: #000000;
@@ -83,32 +62,49 @@ nav {
 }
 
 
-
-
-#abouttag{
+#p1{
+  margin-top: 60px;
   color: #fff;
+  font-family: 'League Spartan';
+  font-size: 20px;
+  font-weight: lighter;
+  word-spacing: 2px;
+  line-height: 25px;
+}
+
+#p2{
+  color: #fff;
+  font-family: 'League Spartan';
+  font-size: 20px;
+  font-weight: lighter;
+  word-spacing: 2px;
+  line-height: 25px;
 }
 
 
+#heading{
+  font-family: 'League Spartan';
+  font-weight: lighter;
+}
 
 
+#title{
+  display: inline;
+  font-size: 50px;
+  font-family: 'League Spartan';
+  font-weight: normal;
+  color: rgb(235, 88, 237);
+}
 
-
-
-
-
+#title:hover{
+  color: rgb(246, 110, 146);
+  transition: 150ms ease-in-out;
+}
 
 .main {
-  display: flex;
-  height: 85vh;
-  justify-content: center;
-  align-items: center;
-  margin-top: -15%;
+  color: #fff;
+  padding: 40px;
 }
-.main p{
-  display: block;
-}
-  
 .upload input[type="file"] {
   display: none;
   /* margin: 0 auto 5%;
@@ -129,12 +125,6 @@ nav {
   color: #000000;
   background-color: rgb(255, 255, 255);
   margin: 10px;
-}
-#abcd:hover{
-  color: #ffffff;
-  background-color: #000000;
-  border: 2px solid #000000;
-  transition: 150ms ease-in-out 5ms;
 }
 
 #formtot{

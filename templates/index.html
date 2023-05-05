@@ -6,19 +6,28 @@
         <link rel="stylesheet" href="../static/style.css">
     </head>
     <body>
+        <nav>
+            <div class="logo">
+                DIFFMOD
+            </div>
+            <ul class="nav-links">
+              <li><a href="./index.html" id="impimp">Home</a></li>
+              <li><a href="./About.html">About</a></li>
+            </ul>
+          </nav>
+
+        <div id = "toptag">
+            Get the <p id="caption">perfect caption </p> for your <p id = "click">perfect click 📸</p><br>
+        </div>
+        
         <div class = "main">
             <div class = "upload">
-                <form method="POST" action="/" enctype="multipart/form-data">
-                    <input type="file" name="userfile" placeholder="Your Image">
+                <form method="POST" action="/" enctype="multipart/form-data" id="formtot">
+                    <!-- <input type="file" name="userfile" title="nothing"> -->
+                    <input type="file" name="userfile" id="img"/>
+                    <label for="img" id="abcd">Select Image</label>
                     <input type="submit">
                 </form>
-                <!-- {% if your_caption %}
-                    <img src="{{your_caption['image']}}">
-                    <h1>Generated Caption: <i> {{your_caption["caption"]}} </i> </h1>
-                {% endif %} -->
-            </div>
-            <div class = "quote">
-                <!-- <h1>Bruh</h1> -->
             </div>
         </div>
     </body>
